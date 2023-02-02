@@ -74,8 +74,5 @@ for brand in brands:
     finally:
         driver.get("url")
 
-for i in range(100):
-    print('GEJ')
-
 # Close the WebDriver
 driver.close()
